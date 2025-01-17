@@ -22,7 +22,7 @@ module Haste
         key = @uploader.upload_raw STDIN.readlines.join
       end
       # Put together a URL
-      url = "#{@uploader.share_server_url}/share/#{key}"
+      url = "#{@uploader.share_server_url}/#{key}"
       # And write data out
       if STDOUT.tty?
         STDOUT.puts url
