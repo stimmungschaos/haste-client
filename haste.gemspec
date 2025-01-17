@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.add_dependency('faraday', '~> 0.9')
   s.description = 'CLI Haste Client'
   s.license = 'MIT License'
-  s.homepage = 'https://github.com/toptal/haste-client'
-  s.email = 'open-source@toptal.com'
+  s.homepage = 'https://github.com/stimmungschaos/haste-client'
+  s.email = 'stimmungschaos@chaosly.de'
   s.executables = 'haste'
   s.files = Dir['lib/**/*.rb', 'haste']
   s.platform = Gem::Platform::RUBY
